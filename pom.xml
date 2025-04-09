@@ -28,6 +28,13 @@
     <artifactId>extentreports-testng-adapter</artifactId>
     <version>1.2.2</version>
 </dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version> <!-- Use same version you're using locally -->
+    <scope>test</scope>
+</dependency>
+
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
