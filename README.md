@@ -15,7 +15,8 @@ A robust Selenium automation framework for [ParaBank](https://parabank.parasoft.
 
 ## 📁 Project Structure
 
-selenium-parabank-framework/ ├── src/test/java/ │ ├── base/ │ ├── pages/ │ ├── tests/ │ └── utils/ ├── testdata/loginData.xlsx ├── reports/ ├── screenshots/ ├── pom.xml ├── testng.xml └── README.md
+selenium-parabank-framework/ 
+
 ---
 
 ## 🔧 Technologies Used
