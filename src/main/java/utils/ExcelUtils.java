@@ -9,8 +9,7 @@ public class ExcelUtils {
     public static Object[][] getSheetData(String sheetName) {
         Object[][] data = null;
         try {
-            File file = new File("testdata/loginData.xlsx");
-            FileInputStream fis = new FileInputStream(file);
+            FileInputStream fis = new FileInputStream(new File("testdata/loginData.xlsx"));
             Workbook wb = WorkbookFactory.create(fis);
             Sheet sheet = wb.getSheet(sheetName);
 

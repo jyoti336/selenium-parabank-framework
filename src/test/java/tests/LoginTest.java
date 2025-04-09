@@ -32,10 +32,8 @@ public class LoginTest extends BaseTest {
         login.login(username, password);
 
         String title = driver.getTitle();
-        log.info("Page title: " + title);
         test.info("Page title: " + title);
-
-        Assert.assertTrue(title.contains("ParaBank"), "❌ Login failed. Title was: " + title);
+        Assert.assertTrue(title.contains("ParaBank"));
     }
 
     @Test(dataProvider = "invalidLoginData", retryAnalyzer = utils.RetryAnalyzer.class)
@@ -47,9 +45,7 @@ public class LoginTest extends BaseTest {
         login.login(username, password);
 
         boolean errorVisible = login.isLoginErrorDisplayed();
-        log.info("Error message visible? " + errorVisible);
         test.info("Error message visible? " + errorVisible);
-
-        Assert.assertTrue(errorVisible, "❌ Expected login error message, but it wasn't displayed.");
+        Assert.assertTrue(errorVisible, "Expected login error message.");
     }
 }

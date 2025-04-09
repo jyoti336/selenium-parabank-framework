@@ -4,7 +4,6 @@ import com.aventstack.extentreports.*;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-
 import utils.DriverFactory;
 import utils.ExtentReportManager;
 import utils.ScreenshotUtil;
