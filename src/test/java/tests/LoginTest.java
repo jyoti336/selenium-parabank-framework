@@ -48,4 +48,8 @@ public class LoginTest extends BaseTest {
         test.info("Error message visible? " + errorVisible);
         Assert.assertTrue(errorVisible, "Expected login error message.");
     }
+
+   public void justPrint(){
+        System.out.println("added the test her for fun");
+   }
 }
