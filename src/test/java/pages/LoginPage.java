@@ -40,7 +40,5 @@ public class LoginPage {
             return false;
         }
     }
-    public void teste(){
-        System.out.println("teste");
-    }
+
 }
